@@ -7,11 +7,11 @@ def landing():
 
 @main.route('/profile')
 def profile():
-    return ''
+    return render_template('profile.html')
 
 @main.route('/redeem')
 def redeem():
-    return ""
+    return render_template('index.html')
 
 @main.route('/recycle')
 def recycle():
