@@ -1,0 +1,209 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+.inter-black-concrete-169px {
+  color: var(--concrete);
+  font-family: "Inter-Black", Helvetica, Arial, serif;
+  font-size: 169px;
+  font-style: normal;
+  font-weight: 900;
+}
+.inter-black-concrete-3920588302612305px {
+  color: var(--concrete);
+  font-family: "Inter-Black", Helvetica, Arial, serif;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 900;
+}
+.inter-bold-concrete-36px {
+  color: var(--concrete);
+  font-family: "Inter-Bold", Helvetica, Arial, serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+}
+.inter-bold-white-28px {
+  color: white;
+  font-family: "Inter-Bold", Helvetica, Arial, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+}
+.inter-bolditalic-bold-concrete-3920588302612305px {
+  color: var(--concrete);
+  font-family: "Inter-BoldItalic", Helvetica, Arial, serif;
+  font-size: 39px;
+  font-style: italic;
+  font-weight: 700;
+}
+.inter-mediumitalic-medium-concrete-3920588302612305px {
+  color: var(--concrete);
+  font-family: "Inter-MediumItalic", Helvetica, Arial, serif;
+  font-size: 39px;
+  font-style: italic;
+  font-weight: 500;
+}
+.profile {
+  background-color: var(--eerie-black);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1919px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.profile .address-35518 {
+  background-color: transparent;
+  height: auto;
+  left: 131px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 657px;
+  width: auto;
+}
+.profile .ellipse- {
+  background-color: transparent;
+  height: 116px;
+  left: 1720px;
+  position: absolute;
+  top: 15px;
+  width: 116px;
+}
+.profile .ellipse-9 {
+  background-color: transparent;
+  height: 291px;
+  left: 245px;
+  position: absolute;
+  top: 219px;
+  width: 290px;
+}
+.profile .email-id-3558 {
+  background-color: transparent;
+  height: auto;
+  left: 495px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 412px;
+  width: 466px;
+}
+.profile .log-out-35510 {
+  background-color: transparent;
+  height: 19.86%;
+  left: 81.88%;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 39.04%;
+  width: 11.09%;
+}
+.profile .name-3556 {
+  background-color: transparent;
+  height: auto;
+  left: 635px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 282px;
+  width: 186px;
+}
+.profile .nav-bar {
+  background-color: var(--eerie-black);
+  height: 146px;
+  left: -1px;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+.profile .rectangle-27 {
+  background-color: var(--onyx);
+  border-radius: 90px;
+  height: 43px;
+  left: 131px;
+  position: absolute;
+  top: 760px;
+  width: 974px;
+}
+.profile .rectangle-28 {
+  background-color: var(--onyx);
+  border-radius: 90px;
+  height: 43px;
+  left: 131px;
+  position: absolute;
+  top: 906px;
+  width: 974px;
+}
+.profile .rectangle-29 {
+  background-color: var(--onyx);
+  border-radius: 90px;
+  height: 43px;
+  left: 131px;
+  position: absolute;
+  top: 833px;
+  width: 974px;
+}
+.profile .rectangle-30 {
+  background-color: var(--onyx);
+  border-radius: 90px;
+  height: 43px;
+  left: 131px;
+  position: absolute;
+  top: 979px;
+  width: 974px;
+}
+.profile .recycle-35512 {
+  background-color: transparent;
+  height: 19.86%;
+  left: 61.09%;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 39.73%;
+  width: 7.66%;
+}
+.profile .redeem-4150 {
+  background-color: transparent;
+  height: 19.86%;
+  left: 72.24%;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 39.73%;
+  width: 11.09%;
+}
+.profile .username-3557 {
+  background-color: transparent;
+  height: auto;
+  left: 570px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 346px;
+  width: 317px;
+}
+.profile .vector {
+  background-color: transparent;
+  height: 41.11%;
+  left: 72.23%;
+  position: absolute;
+  top: 29.44%;
+  width: 23.14%;
+}
+.profile .x17-3554 {
+  background-color: transparent;
+  height: auto;
+  left: 1490px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: left;
+  top: 444px;
+  width: 191px;
+}
+:root {
+  --concrete: rgba(242, 242, 247, 1);
+  --eerie-black: rgba(28, 28, 30, 1);
+  --onyx: rgba(56, 58, 60, 1);
+}
