@@ -187,6 +187,18 @@
   --eerie-black: rgba(28, 28, 30, 1);
   --razzmatazz: rgba(248, 7, 89, 1);
 }
+.button1 {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  cursor: pointer;
+}
 .valign-text-middle {
   display: flex;
   flex-direction: column;
@@ -198,7 +210,7 @@ a {
 }
 
   </style>
-    <form class="login" name="form1" action="form1" method="post">
+    <form class="login" name="form1" method="post">
     <img
       class="vector"
       src="https://anima-uploads.s3.amazonaws.com/projects/5fd51c4941eaa3eee13788dd/releases/5fd51c5632acc12df39af48f/img/vector@1x.svg"
@@ -224,10 +236,10 @@ a {
     <div class="username-23815 valign-text-middle inter-bold-razzmatazz-36px border-class-1">username</div>
     <a href="javascript:SubmitForm('form1')">
       <div class="group-4">
-        <img
+        <button class="button1" type="submit" value="submitlogin"><img
           class="arrow-1"
           src="https://anima-uploads.s3.amazonaws.com/projects/5fd51c4941eaa3eee13788dd/releases/5fd5226159afa63130ed26d0/img/arrow-1@2x.svg"
-        /></div
+        /></button></div
     ></a>
     <h1 class="login-2960 valign-text-middle inter-bold-concrete-105px border-class-1">Login</h1>
   </form>
