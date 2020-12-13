@@ -8,11 +8,11 @@ main=Blueprint('main', __name__)
 @main.route('/')
 def landing():
     return render_template('landing/landing.html')
-@main.route("/landing", methods=['POST'])
+@main.route("/", methods=['GET','POST'])
 def submit(): 
-	if request.form.get("login"):
+	if "login"==request.form.get("LOGIN"):
 			return redirect(url_for('auth.login'))
-	elif request.form.get("signup"):
+	elif "signup"==request.form.get("REGISTER"):
 			return redirect(url_for('auth.signup'))
 
 @main.route('/profile')
