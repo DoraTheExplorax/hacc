@@ -8,7 +8,7 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(100))
     name = db.Column(db.String(1000))
     address=db.Column(db.Text)
-    username=db.Column(db.Text)
+    #username=db.Column(db.Text)
     requests = db.relationship('Req', backref='author', lazy=True)
     
     
