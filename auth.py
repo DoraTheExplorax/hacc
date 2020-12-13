@@ -7,7 +7,7 @@ from . import db
 auth=Blueprint('auth',__name__)
 @auth.route('/signup')
 def signup():
-    return render_template('reg/reg.html')
+    return render_template('reg\\reg.html')
 @auth.route('/signup', methods=['POST'])
 def signup_post():
 
@@ -16,6 +16,7 @@ def signup_post():
     password = request.form.get('password')
     address=request.form.get('address')
     username=request.form.get('username')
+    usrtyp=request.form.get('usrtyp')
     # if this returns a user, then the email already exists in database
     user = User.query.filter_by(email=email).first()
 
@@ -26,7 +27,7 @@ def signup_post():
         return redirect(url_for('auth.signup'))
 
     # create new user with the form data. Hash the password so plaintext version isn't saved.
-    new_user = User(email=email, name=name, password=generate_password_hash(password, method='sha256'),address=address, username=username)
+    new_user = User(email=email, name=name, password=generate_password_hash(password, method='sha256'),address=address, username=username, usrtyp=usrtyp)
 
     # add the new user to the database
     db.session.add(new_user)
