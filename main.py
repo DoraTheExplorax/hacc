@@ -10,9 +10,9 @@ def landing():
     return render_template('landing/landing.html')
 @main.route("/", methods=['GET','POST'])
 def submit(): 
-	if "login"==request.form.get("LOGIN"):
+	if "login"==request.form.get("login"):
 			return redirect(url_for('auth.login'))
-	elif "signup"==request.form.get("REGISTER"):
+	elif "register"==request.form.get("register"):
 			return redirect(url_for('auth.signup'))
 
 @main.route('/profile')
