@@ -18,5 +18,4 @@ class Req(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     quantity = db.Column(db.Integer, nullable=True)
     item = db.Column(db.Text, nullable=False)
-    author=db.Column(db.String(1000))
-    user_id = db.Column(db.Integer, db.ForeignKey('User.id'), nullable=False)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
