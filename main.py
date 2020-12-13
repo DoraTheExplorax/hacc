@@ -18,6 +18,7 @@ def redeem():
     return render_template('index.html')
 
 @main.route('/recycle')
+def recycle():
     return render_template('recycle.html')
 @main.route("/recycle", methods=['POST'])
 @login_required
