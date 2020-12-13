@@ -8,6 +8,12 @@ main=Blueprint('main', __name__)
 @main.route('/')
 def landing():
     return render_template('landing/landing.html')
+@main.route("/landing", methods=['POST'])
+def submit(): 
+	if request.form.get("login"):
+			return redirect(url_for('auth.login'))
+	elif request.form.get("signup"):
+			return redirect(url_for('auth.signup'))
 
 @main.route('/profile')
 def profile():
