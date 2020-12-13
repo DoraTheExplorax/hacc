@@ -20,6 +20,8 @@
   <h1 style="color:white; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Today's Routine</h1>
     <div id='map' class='map' ></div>
     <script>
+        const x1 = -122.510601;
+        const y1 = 37.768014;
         var map = tt.map({
             key: 'UloKIDzJGUvdhtok8LyryaHU9AH2mzNK',
             container: 'map',
@@ -27,11 +29,11 @@
             center: [-122.492544, 37.768454],
             zoom: 10
         });
-        var marker = new tt.Marker().setLngLat([-122.510601,37.768014]).addTo(map);
+        var marker = new tt.Marker().setLngLat([x1,y1]).addTo(map);
         var marker = new tt.Marker().setLngLat([-122.478468,37.769167]).addTo(map);
         tt.services.calculateRoute({
     key: 'UloKIDzJGUvdhtok8LyryaHU9AH2mzNK',
-    locations: '-122.510601,37.768014:-122.478468,37.769167'
+    locations: x1.toString() + ',' + y1.toString() + ':-122.478468,37.769167'
 })
 .go()
 .then(function(response) {
