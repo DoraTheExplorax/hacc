@@ -16,6 +16,9 @@ class User(db.Model, UserMixin):
 
 class Req(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    quantity = db.Column(db.Integer, nullable=True)
-    item = db.Column(db.Text, nullable=False)
+    plastic=db.Column(db.Integer,nullable=True)
+    metal=db.Column(db.Integer,nullable=True)
+    paper=db.Column(db.Integer,nullable=True)
+    ewaste=db.Column(db.Integer,nullable=True)
+    address=db.Column(db.Text)
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
